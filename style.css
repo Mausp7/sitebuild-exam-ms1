@@ -42,3 +42,62 @@ button, input, textarea, select {
 	
 	border-radius: 0;
 }
+
+body {
+	overflow-x: hidden;
+}
+
+.box {
+	position: relative;
+
+	width: 100vw;
+	height: 100Vh;
+}
+
+#box1 {
+	background-color: #0988f9;
+}
+
+#button1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 200px;
+	height: 200px;
+
+	border-radius: 50%;
+
+	background-color: #d44589;
+
+	transform: translate(-50%, -50%);
+}
+
+#button2 {
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+
+	width: 200px;
+	height: 60px;
+
+	background-color: #4c07bb;
+}
+
+#box2 {
+	background-color: #346848;
+}
+
+#button3 {
+	position: absolute;
+
+	left: 50%;
+	bottom: 40px;
+
+	width: 200px;
+	height: 60px;
+
+	background-color: #c1d607;
+
+	transform: translate(-50%, 0%);
+}
